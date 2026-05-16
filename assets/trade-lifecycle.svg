@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Marketplace trading lifecycle</title>
+  <desc id="desc">A lifecycle diagram for a student marketplace listing from account gate to moderation and follow-up.</desc>
+  <rect width="1280" height="620" fill="#fbfbf7"/>
+  <text x="64" y="70" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2933">Trading Flow: From School Gate to Completed Exchange</text>
+  <text x="64" y="106" font-family="Inter, Arial, sans-serif" font-size="16" fill="#52616b">The product focuses on trusted discovery and communication. Payment, escrow, and payout logic are intentionally outside this phase.</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect x="70" y="184" width="170" height="140" rx="18" fill="#eef6ff" stroke="#b8d7ff"/>
+      <text x="102" y="232" font-size="18" font-weight="700" fill="#1f2933">1. Sign up</text>
+      <text x="102" y="264" font-size="14" fill="#52616b">School email domain</text>
+      <text x="102" y="288" font-size="14" fill="#52616b">Profile bootstrap</text>
+    </g>
+    <g>
+      <rect x="300" y="184" width="170" height="140" rx="18" fill="#effaf3" stroke="#b9e6ca"/>
+      <text x="332" y="232" font-size="18" font-weight="700" fill="#1f2933">2. List item</text>
+      <text x="332" y="264" font-size="14" fill="#52616b">Draft or publish</text>
+      <text x="332" y="288" font-size="14" fill="#52616b">Upload images</text>
+    </g>
+    <g>
+      <rect x="530" y="184" width="170" height="140" rx="18" fill="#fff8db" stroke="#edd980"/>
+      <text x="562" y="232" font-size="18" font-weight="700" fill="#1f2933">3. Discover</text>
+      <text x="562" y="264" font-size="14" fill="#52616b">Server filters</text>
+      <text x="562" y="288" font-size="14" fill="#52616b">Signed media URLs</text>
+    </g>
+    <g>
+      <rect x="760" y="184" width="170" height="140" rx="18" fill="#fff4ed" stroke="#ffd3b8"/>
+      <text x="792" y="232" font-size="18" font-weight="700" fill="#1f2933">4. Inquire</text>
+      <text x="792" y="264" font-size="14" fill="#52616b">Buyer to seller</text>
+      <text x="792" y="288" font-size="14" fill="#52616b">Threaded chat</text>
+    </g>
+    <g>
+      <rect x="990" y="184" width="170" height="140" rx="18" fill="#f3f0ff" stroke="#d7ccff"/>
+      <text x="1022" y="232" font-size="18" font-weight="700" fill="#1f2933">5. Close loop</text>
+      <text x="1022" y="264" font-size="14" fill="#52616b">Sold / on hold</text>
+      <text x="1022" y="288" font-size="14" fill="#52616b">Rating reminders</text>
+    </g>
+
+    <path d="M240 254 L300 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M470 254 L530 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M700 254 L760 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M930 254 L990 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="178" y="404" width="924" height="92" rx="20" fill="#ffffff" stroke="#d7d7c9"/>
+    <text x="222" y="444" font-size="18" font-weight="700" fill="#1f2933">Trust and safety layer runs across the whole lifecycle</text>
+    <text x="222" y="474" font-size="15" fill="#52616b">RLS policies, public profile views, duplicate-report guards, abuse events, admin review, and privacy relay email aliases.</text>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#607d8b"/>
+    </marker>
+  </defs>
+</svg>

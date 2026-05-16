@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Student Help Student system architecture</title>
+  <desc id="desc">A technical architecture diagram showing public users, verified students, admin users, Next.js, Supabase, email, cron, and storage.</desc>
+  <rect width="1280" height="720" fill="#f7f7f2"/>
+  <text x="64" y="70" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2933">Student Help Student - System Architecture</text>
+  <text x="64" y="104" font-family="Inter, Arial, sans-serif" font-size="16" fill="#52616b">A school-gated trading marketplace built around browsing, posting, inquiry, moderation, and privacy.</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="64" y="150" width="250" height="360" rx="18" fill="#ffffff" stroke="#d7d7c9"/>
+    <text x="92" y="194" font-size="22" font-weight="700" fill="#1f2933">Actors</text>
+    <circle cx="108" cy="248" r="18" fill="#2f80ed"/>
+    <text x="142" y="254" font-size="18" font-weight="600" fill="#1f2933">Public visitor</text>
+    <text x="142" y="278" font-size="14" fill="#52616b">Browse published listings</text>
+    <circle cx="108" cy="336" r="18" fill="#19a974"/>
+    <text x="142" y="342" font-size="18" font-weight="600" fill="#1f2933">Verified student</text>
+    <text x="142" y="366" font-size="14" fill="#52616b">Post, message, save, rate</text>
+    <circle cx="108" cy="424" r="18" fill="#d64545"/>
+    <text x="142" y="430" font-size="18" font-weight="600" fill="#1f2933">Admin reviewer</text>
+    <text x="142" y="454" font-size="14" fill="#52616b">Moderate reports and listings</text>
+
+    <rect x="410" y="130" width="360" height="430" rx="22" fill="#ffffff" stroke="#c9d6df" stroke-width="2"/>
+    <text x="446" y="178" font-size="24" font-weight="700" fill="#1f2933">Next.js 16 App Router</text>
+    <text x="446" y="210" font-size="15" fill="#52616b">Server components, server actions, API routes</text>
+    <rect x="446" y="244" width="288" height="52" rx="12" fill="#eef6ff" stroke="#b8d7ff"/>
+    <text x="470" y="277" font-size="16" font-weight="700" fill="#1f2933">Public marketplace</text>
+    <rect x="446" y="316" width="288" height="52" rx="12" fill="#effaf3" stroke="#b9e6ca"/>
+    <text x="470" y="349" font-size="16" font-weight="700" fill="#1f2933">Student dashboard</text>
+    <rect x="446" y="388" width="288" height="52" rx="12" fill="#fff4ed" stroke="#ffd3b8"/>
+    <text x="470" y="421" font-size="16" font-weight="700" fill="#1f2933">Admin moderation</text>
+    <rect x="446" y="460" width="288" height="52" rx="12" fill="#f3f0ff" stroke="#d7ccff"/>
+    <text x="470" y="493" font-size="16" font-weight="700" fill="#1f2933">Cache tags and revalidation</text>
+
+    <rect x="874" y="130" width="342" height="430" rx="22" fill="#ffffff" stroke="#d7d7c9" stroke-width="2"/>
+    <text x="910" y="178" font-size="24" font-weight="700" fill="#1f2933">Supabase + Services</text>
+    <text x="910" y="210" font-size="15" fill="#52616b">Auth, Postgres, Storage, RLS, email hooks</text>
+    <rect x="910" y="244" width="270" height="48" rx="12" fill="#effaf3" stroke="#b9e6ca"/>
+    <text x="934" y="275" font-size="16" font-weight="700" fill="#1f2933">School-domain Auth</text>
+    <rect x="910" y="308" width="270" height="48" rx="12" fill="#eef6ff" stroke="#b8d7ff"/>
+    <text x="934" y="339" font-size="16" font-weight="700" fill="#1f2933">Postgres + RLS policies</text>
+    <rect x="910" y="372" width="270" height="48" rx="12" fill="#fff8db" stroke="#edd980"/>
+    <text x="934" y="403" font-size="16" font-weight="700" fill="#1f2933">Private listing-image bucket</text>
+    <rect x="910" y="436" width="270" height="48" rx="12" fill="#fff4ed" stroke="#ffd3b8"/>
+    <text x="934" y="467" font-size="16" font-weight="700" fill="#1f2933">Brevo email relay</text>
+    <rect x="910" y="500" width="270" height="48" rx="12" fill="#f3f0ff" stroke="#d7ccff"/>
+    <text x="934" y="531" font-size="16" font-weight="700" fill="#1f2933">Vercel Cron jobs</text>
+
+    <path d="M314 250 C360 250, 370 250, 410 250" fill="none" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M314 338 C360 338, 370 338, 410 338" fill="none" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M314 426 C360 426, 370 426, 410 426" fill="none" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M770 344 C820 344, 830 344, 874 344" fill="none" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1045 560 C1045 620, 590 620, 590 560" fill="none" stroke="#607d8b" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#607d8b"/>
+    </marker>
+  </defs>
+</svg>
