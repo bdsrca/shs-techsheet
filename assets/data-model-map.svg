@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1e3a8a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:800;fill:#0f172a}
+      .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;fill:#475569}
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;font-weight:800;fill:#0f172a}
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#334155}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#475569}
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;font-weight:700;fill:#1d4ed8}
+      .card{fill:#ffffff;stroke:#bfdbfe;stroke-width:1.4;rx:22;filter:url(#shadow)}
+      .soft{fill:#eff6ff;stroke:#bfdbfe;stroke-width:1.2;rx:16}
+      .green{fill:#ecfdf5;stroke:#86efac}
+      .orange{fill:#fff7ed;stroke:#fdba74}
+      .purple{fill:#f5f3ff;stroke:#c4b5fd}
+      .red{fill:#fff1f2;stroke:#fda4af}
+      .line{stroke:#2563eb;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dash{stroke:#93c5fd;stroke-width:2;stroke-dasharray:6 8;fill:none}
+    </style>
+  </defs>
+  <rect width="1400" height="880" rx="28" fill="url(#bg)"/>
+<text x="54" y="70" class="title">Data Model Map</text><text x="56" y="105" class="sub">The schema keeps public listing behavior separate from private account, messaging, and admin context.</text><rect x="80" y="170" width="290" height="210" class="soft"/>
+<text x="102" y="206" class="h">Identity</text>
+<text x="102" y="240" class="small">school_domains</text>
+<text x="102" y="262" class="small">profiles</text>
+<text x="102" y="284" class="small">admin_roles</text> <rect x="420" y="170" width="290" height="210" class="card"/>
+<text x="442" y="206" class="h">Marketplace</text>
+<text x="442" y="240" class="small">categories</text>
+<text x="442" y="262" class="small">listings</text>
+<text x="442" y="284" class="small">listing_images</text>
+<text x="442" y="306" class="small">favorites</text> <rect x="760" y="170" width="290" height="210" class="soft"/>
+<text x="782" y="206" class="h">Communication</text>
+<text x="782" y="240" class="small">inquiry_requests</text>
+<text x="782" y="262" class="small">inquiry_messages</text>
+<text x="782" y="284" class="small">read state</text> <rect x="250" y="480" width="290" height="210" class="orange"/>
+<text x="272" y="516" class="h">Trust</text>
+<text x="272" y="550" class="small">reports</text>
+<text x="272" y="572" class="small">moderation_logs</text>
+<text x="272" y="594" class="small">abuse_guard_events</text> <rect x="590" y="480" width="290" height="210" class="purple"/>
+<text x="612" y="516" class="h">Reputation</text>
+<text x="612" y="550" class="small">seller_ratings</text>
+<text x="612" y="572" class="small">reminder tokens</text> <rect x="930" y="480" width="290" height="210" class="green"/>
+<text x="952" y="516" class="h">Operations</text>
+<text x="952" y="550" class="small">email events</text>
+<text x="952" y="572" class="small">cron jobs</text>
+<text x="952" y="594" class="small">cache tags</text> <path d="M370 275 C405 275, 385 275, 420 275" class="dash"/><path d="M710 275 C745 275, 725 275, 760 275" class="dash"/><path d="M565 380 C600 380, 360 480, 395 480" class="dash"/><path d="M905 380 C940 380, 700 480, 735 480" class="dash"/><path d="M905 380 C940 380, 1040 480, 1075 480" class="dash"/><path d="M710 275 C745 275, 700 480, 735 480" class="dash"/><rect x="120" y="730" width="1160" height="90" class="green"/>
+<text x="142" y="766" class="h">Key modeling choice</text>
+<text x="142" y="800" class="small">Publication status, moderation status, and sale status are separate because they answer different questions.</text> </svg>

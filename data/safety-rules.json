@@ -1,0 +1,23 @@
+{
+  "public_listing_should_not_include": [
+    "phone numbers",
+    "personal email addresses",
+    "home addresses",
+    "class schedules",
+    "family details"
+  ],
+  "recommended_meetup_guidance": [
+    "meet in public",
+    "use broad area hints",
+    "check item before paying",
+    "leave if something feels off"
+  ],
+  "restricted_item_examples": [
+    "weapons",
+    "alcohol",
+    "vapes",
+    "medication",
+    "gift cards",
+    "accounts or credentials"
+  ]
+}

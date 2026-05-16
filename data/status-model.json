@@ -1,0 +1,19 @@
+{
+  "publication_status": [
+    "draft",
+    "published",
+    "paused",
+    "archived"
+  ],
+  "moderation_status": [
+    "normal",
+    "flagged",
+    "under_review",
+    "removed"
+  ],
+  "sale_status": [
+    "available",
+    "on_hold",
+    "sold"
+  ]
+}

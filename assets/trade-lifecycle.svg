@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
-  <title id="title">Marketplace trading lifecycle</title>
-  <desc id="desc">A lifecycle diagram for a student marketplace listing from account gate to moderation and follow-up.</desc>
-  <rect width="1280" height="620" fill="#fbfbf7"/>
-  <text x="64" y="70" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2933">Trading Flow: From School Gate to Completed Exchange</text>
-  <text x="64" y="106" font-family="Inter, Arial, sans-serif" font-size="16" fill="#52616b">The product focuses on trusted discovery and communication. Payment, escrow, and payout logic are intentionally outside this phase.</text>
-  <g font-family="Inter, Arial, sans-serif">
-    <g>
-      <rect x="70" y="184" width="170" height="140" rx="18" fill="#eef6ff" stroke="#b8d7ff"/>
-      <text x="102" y="232" font-size="18" font-weight="700" fill="#1f2933">1. Sign up</text>
-      <text x="102" y="264" font-size="14" fill="#52616b">School email domain</text>
-      <text x="102" y="288" font-size="14" fill="#52616b">Profile bootstrap</text>
-    </g>
-    <g>
-      <rect x="300" y="184" width="170" height="140" rx="18" fill="#effaf3" stroke="#b9e6ca"/>
-      <text x="332" y="232" font-size="18" font-weight="700" fill="#1f2933">2. List item</text>
-      <text x="332" y="264" font-size="14" fill="#52616b">Draft or publish</text>
-      <text x="332" y="288" font-size="14" fill="#52616b">Upload images</text>
-    </g>
-    <g>
-      <rect x="530" y="184" width="170" height="140" rx="18" fill="#fff8db" stroke="#edd980"/>
-      <text x="562" y="232" font-size="18" font-weight="700" fill="#1f2933">3. Discover</text>
-      <text x="562" y="264" font-size="14" fill="#52616b">Server filters</text>
-      <text x="562" y="288" font-size="14" fill="#52616b">Signed media URLs</text>
-    </g>
-    <g>
-      <rect x="760" y="184" width="170" height="140" rx="18" fill="#fff4ed" stroke="#ffd3b8"/>
-      <text x="792" y="232" font-size="18" font-weight="700" fill="#1f2933">4. Inquire</text>
-      <text x="792" y="264" font-size="14" fill="#52616b">Buyer to seller</text>
-      <text x="792" y="288" font-size="14" fill="#52616b">Threaded chat</text>
-    </g>
-    <g>
-      <rect x="990" y="184" width="170" height="140" rx="18" fill="#f3f0ff" stroke="#d7ccff"/>
-      <text x="1022" y="232" font-size="18" font-weight="700" fill="#1f2933">5. Close loop</text>
-      <text x="1022" y="264" font-size="14" fill="#52616b">Sold / on hold</text>
-      <text x="1022" y="288" font-size="14" fill="#52616b">Rating reminders</text>
-    </g>
-
-    <path d="M240 254 L300 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
-    <path d="M470 254 L530 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
-    <path d="M700 254 L760 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
-    <path d="M930 254 L990 254" stroke="#607d8b" stroke-width="3" marker-end="url(#arrow)"/>
-
-    <rect x="178" y="404" width="924" height="92" rx="20" fill="#ffffff" stroke="#d7d7c9"/>
-    <text x="222" y="444" font-size="18" font-weight="700" fill="#1f2933">Trust and safety layer runs across the whole lifecycle</text>
-    <text x="222" y="474" font-size="15" fill="#52616b">RLS policies, public profile views, duplicate-report guards, abuse events, admin review, and privacy relay email aliases.</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#607d8b"/>
-    </marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1e3a8a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:800;fill:#0f172a}
+      .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;fill:#475569}
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;font-weight:800;fill:#0f172a}
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#334155}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#475569}
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;font-weight:700;fill:#1d4ed8}
+      .card{fill:#ffffff;stroke:#bfdbfe;stroke-width:1.4;rx:22;filter:url(#shadow)}
+      .soft{fill:#eff6ff;stroke:#bfdbfe;stroke-width:1.2;rx:16}
+      .green{fill:#ecfdf5;stroke:#86efac}
+      .orange{fill:#fff7ed;stroke:#fdba74}
+      .purple{fill:#f5f3ff;stroke:#c4b5fd}
+      .red{fill:#fff1f2;stroke:#fda4af}
+      .line{stroke:#2563eb;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dash{stroke:#93c5fd;stroke-width:2;stroke-dasharray:6 8;fill:none}
+    </style>
   </defs>
-</svg>
+  <rect width="1400" height="820" rx="28" fill="url(#bg)"/>
+<text x="54" y="70" class="title">Student Trading Lifecycle</text><text x="56" y="105" class="sub">The product focuses on trusted matching and communication before payment.</text><circle cx="120" cy="185" r="24" fill="url(#blue)"/><text x="112" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">1</text><rect x="60" y="225" width="170" height="170" class="card"/>
+<text x="82" y="261" class="h">Browse</text>
+<text x="82" y="295" class="small">Open scan</text>
+<text x="82" y="317" class="small">No signup required</text> <path d="M230 310 H275" class="line"/><circle cx="305" cy="185" r="24" fill="url(#blue)"/><text x="297" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">2</text><rect x="245" y="225" width="170" height="170" class="card"/>
+<text x="267" y="261" class="h">Post</text>
+<text x="267" y="295" class="small">School email</text>
+<text x="267" y="317" class="small">Draft and publish</text> <path d="M415 310 H460" class="line"/><circle cx="490" cy="185" r="24" fill="url(#blue)"/><text x="482" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">3</text><rect x="430" y="225" width="170" height="170" class="card"/>
+<text x="452" y="261" class="h">Review</text>
+<text x="452" y="295" class="small">Quality guidance</text>
+<text x="452" y="317" class="small">Moderation checks</text> <path d="M600 310 H645" class="line"/><circle cx="675" cy="185" r="24" fill="url(#blue)"/><text x="667" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">4</text><rect x="615" y="225" width="170" height="170" class="card"/>
+<text x="637" y="261" class="h">Inquire</text>
+<text x="637" y="295" class="small">Buyer asks</text>
+<text x="637" y="317" class="small">No direct contact exposed</text> <path d="M785 310 H830" class="line"/><circle cx="860" cy="185" r="24" fill="url(#blue)"/><text x="852" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">5</text><rect x="800" y="225" width="170" height="170" class="card"/>
+<text x="822" y="261" class="h">Chat</text>
+<text x="822" y="295" class="small">Threaded messages</text>
+<text x="822" y="317" class="small">Unread state</text> <path d="M970 310 H1015" class="line"/><circle cx="1045" cy="185" r="24" fill="url(#blue)"/><text x="1037" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">6</text><rect x="985" y="225" width="170" height="170" class="card"/>
+<text x="1007" y="261" class="h">Meet</text>
+<text x="1007" y="295" class="small">Public place</text>
+<text x="1007" y="317" class="small">Pay in person</text> <path d="M1155 310 H1200" class="line"/><circle cx="1230" cy="185" r="24" fill="url(#blue)"/><text x="1222" y="192" fill="#fff" font-size="18" font-weight="800" font-family="Inter,Arial">7</text><rect x="1170" y="225" width="170" height="170" class="card"/>
+<text x="1192" y="261" class="h">Resolve</text>
+<text x="1192" y="295" class="small">Sold, rating</text>
+<text x="1192" y="317" class="small">Report if needed</text> <path d="M1240 395 C1240 650 170 650 170 405" class="line"/><text x="500" y="710" class="h">Feedback loop: reports, ratings, moderation logs, and cleanup jobs improve the next cycle.</text></svg>

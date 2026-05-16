@@ -1,0 +1,32 @@
+{
+  "identity": [
+    "school_domains",
+    "profiles",
+    "admin_roles"
+  ],
+  "marketplace": [
+    "categories",
+    "listings",
+    "listing_images",
+    "favorites"
+  ],
+  "communication": [
+    "inquiry_requests",
+    "inquiry_messages",
+    "read_state"
+  ],
+  "trust": [
+    "reports",
+    "moderation_logs",
+    "abuse_guard_events"
+  ],
+  "reputation": [
+    "seller_ratings",
+    "rating_reminder_tokens"
+  ],
+  "operations": [
+    "cache_tags",
+    "cron_jobs",
+    "email_events"
+  ]
+}

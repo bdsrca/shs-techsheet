@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1e3a8a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:800;fill:#0f172a}
+      .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;fill:#475569}
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;font-weight:800;fill:#0f172a}
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;fill:#334155}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#475569}
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;font-weight:700;fill:#1d4ed8}
+      .card{fill:#ffffff;stroke:#bfdbfe;stroke-width:1.4;rx:22;filter:url(#shadow)}
+      .soft{fill:#eff6ff;stroke:#bfdbfe;stroke-width:1.2;rx:16}
+      .green{fill:#ecfdf5;stroke:#86efac}
+      .orange{fill:#fff7ed;stroke:#fdba74}
+      .purple{fill:#f5f3ff;stroke:#c4b5fd}
+      .red{fill:#fff1f2;stroke:#fda4af}
+      .line{stroke:#2563eb;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dash{stroke:#93c5fd;stroke-width:2;stroke-dasharray:6 8;fill:none}
+    </style>
+  </defs>
+  <rect width="1400" height="850" rx="28" fill="url(#bg)"/>
+<text x="54" y="70" class="title">Trust and Safety Boundary</text><text x="56" y="105" class="sub">What the public can see, what signed-in students can do, and what stays admin-only.</text><rect x="80" y="170" width="360" height="430" class="soft"/>
+<text x="102" y="206" class="h">Public</text>
+<text x="102" y="240" class="small">Listing title</text>
+<text x="102" y="262" class="small">Price and sale status</text>
+<text x="102" y="284" class="small">Broad city / area</text>
+<text x="102" y="306" class="small">Public photos</text>
+<text x="102" y="328" class="small">Short profile label</text> <rect x="520" y="170" width="360" height="430" class="green"/>
+<text x="542" y="206" class="h">Signed-in Student</text>
+<text x="542" y="240" class="small">Create listings</text>
+<text x="542" y="262" class="small">Save listings</text>
+<text x="542" y="284" class="small">Start inquiries</text>
+<text x="542" y="306" class="small">Chat in threads</text>
+<text x="542" y="328" class="small">Submit reports</text> <rect x="960" y="170" width="360" height="430" class="orange"/>
+<text x="982" y="206" class="h">Admin Review</text>
+<text x="982" y="240" class="small">Reports queue</text>
+<text x="982" y="262" class="small">Moderation actions</text>
+<text x="982" y="284" class="small">Risk context</text>
+<text x="982" y="306" class="small">Abuse events</text>
+<text x="982" y="328" class="small">Audit logs</text> <path d="M440 385 H520" class="line"/><path d="M880 385 H960" class="line"/><rect x="180" y="680" width="1040" height="95" class="purple"/>
+<text x="202" y="716" class="h">Privacy rule</text>
+<text x="202" y="750" class="small">Show enough to make local exchange possible. Keep private contact details, exact addresses, routines, and admin-only review context out of public pages.</text> </svg>

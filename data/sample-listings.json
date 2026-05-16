@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lst_001",
+    "title": "Exam Review Notes Bundle",
+    "price": 14,
+    "category": "Notes & study guides",
+    "city": "Mississauga",
+    "meetupArea": "Central Library Area",
+    "publicationStatus": "published",
+    "moderationStatus": "normal",
+    "saleStatus": "available",
+    "sellerId": "seller_1"
+  },
+  {
+    "id": "lst_002",
+    "title": "MacBook Pro 2017",
+    "price": 260,
+    "category": "Tech & electronics",
+    "city": "Mississauga",
+    "meetupArea": "Mississauga Valley",
+    "publicationStatus": "published",
+    "moderationStatus": "normal",
+    "saleStatus": "on_hold",
+    "sellerId": "seller_2"
+  },
+  {
+    "id": "lst_003",
+    "title": "Free vape cartridges",
+    "price": 0,
+    "category": "Restricted",
+    "city": "Mississauga",
+    "meetupArea": "home",
+    "publicationStatus": "published",
+    "moderationStatus": "flagged",
+    "saleStatus": "available",
+    "sellerId": "seller_3"
+  }
+]
